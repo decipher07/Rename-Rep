@@ -1,7 +1,7 @@
 import os 
 import shutil 
 
-os.chdir('/home/nopc/Desktop/Github-Clones/Rename-Rep/Formal Language and Theory Of Automation')
+os.chdir('/home/nopc/Desktop/Github-Clones/Rename-Rep/Database Mangement Sysems')
 
 for f in os.listdir():
     if (len(f.split('_'))) > 4 :
@@ -17,7 +17,7 @@ for f in os.listdir():
             else :
                 word_for_rename = word_for_rename+list_for_name[index] + '_'  
         merged_original_words = original_constraint + word_for_rename
-        print(type(original_constraint))
+        # print(type(original_constraint))
         if (original_constraint == ''):
             print('The Script Has Already Worked , Thank You')
         else :
